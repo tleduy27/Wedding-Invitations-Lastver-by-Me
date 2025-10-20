@@ -749,4 +749,14 @@ img, iframe, video, canvas { display:block; max-width:100%; height:auto; }
 }
 
 
-
+.wedding-events .event-img {
+  display: block;
+  margin-inline: auto;
+}
+/* Căn giữa ảnh chữ hỉ trong form RSVP */
+.card-rsvp img {
+  display: block;              /* giúp margin auto có tác dụng */
+  margin-inline: auto;         /* căn giữa theo chiều ngang */
+  max-width: 120px;            /* tuỳ chỉnh kích thước ảnh hỉ */
+  height: auto;
+}

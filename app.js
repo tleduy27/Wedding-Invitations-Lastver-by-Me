@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   setInterval(spawnHearts, 1200);
 
-  // // ===== Audio gesture =====
-  // addEventListener('click',()=>{
-  //   const a=document.getElementById('bgMusic');
-  //   if (a) { a.muted=false; a.play().catch(()=>{}); }
-  // }, {once:true});
+  // ===== Audio gesture =====
+  addEventListener('click',()=>{
+    const a=document.getElementById('bgMusic');
+    if (a) { a.muted=false; a.play().catch(()=>{}); }
+  }, {once:true});
 
   // ===== Countdown =====
   const dd = document.getElementById('dd'),
@@ -129,7 +129,7 @@ document.addEventListener("click", () => {
   }
 }, { once: true });
 
-const scriptURL = "https://script.google.com/macros/s/AKfycbzcvU8U75qMH0NjRTW8V4LJKX56h4VrNjkxH7ulpUei7gAwfhYLiMxf0as0A6yZRpsl/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbzIP999FafCQx_wRA7gNpiXsJ-0Zjbi0W8eXxGQFcG6VvzfpSn_RS2H08rzCtKzt6hWFA/exec";
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("rsvpForm");
